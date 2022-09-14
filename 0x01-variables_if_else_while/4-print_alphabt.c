@@ -1,26 +1,37 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
- *
+ * ch - character
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char low, e, q;
+	char ch;
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
+	/* using for loop */
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (low != e && low != q)
-			putchar(low);
+		if (ch == 'e' || ch == 'q')
+			continue;
+		putchar(ch);
 	}
+
 	putchar('\n');
 
 	return (0);
 }
+
+/* using while loop               */
+/* char                           */
+/* while (ch <= 'z')              */
+/* {                              */
+/*    if (ch == 'e' || ch == 'q') */
+/*     {                          */
+/*         ch++;                  */
+/*         continue               */
+/*     }                          */
+/*     putchar(ch;                */
+/*            ch++;               */
+/* }                              */
