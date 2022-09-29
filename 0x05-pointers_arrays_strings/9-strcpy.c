@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * *_strcpy - copies string to given memory location
- * @dest: where the string needs to be copied
- * @src: where the string is
+ * @dest: destination of the string
+ * @src: copied string
  *
- * Return: char
+ * Return: array of characters of copied string
  */
 char *_strcpy(char *dest, char *src)
 {
