@@ -3,8 +3,6 @@
 /**
  * puts_half - prints the second half of a given string
  * @str: passed string pointer
- *
- * Return: Nothing
  */
 void puts_half(char *str)
 {
@@ -16,6 +14,7 @@ void puts_half(char *str)
 		len /= 2;
 	else
 		len = len / 2 + 1;
+
 	while (*(str + len) != '\0')
 	{
 		_putchar(*(str + len));
