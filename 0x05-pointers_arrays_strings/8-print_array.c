@@ -2,10 +2,8 @@
 
 /**
  * print_array - prints first n elements of array
- * @a: int array to display from
+ * @a: array
  * @n: number of elements to display
- *
- * Return: void
  */
 void print_array(int *a, int n)
 {
