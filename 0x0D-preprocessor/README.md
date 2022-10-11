@@ -14,4 +14,4 @@
 --- 
 <br/>
 
-### [Task 0](0x0D-preprocessor/0-object_like_macro.h) - A header file that defines a macro named SIZE as an abbreviation for the token 1024 with (source file [`0-main.c`](0x0D-preprocessor/0-main.c) and executable file [a](0x0D-preprocessor/a)
+### [Task 0](0-object_like_macro.h) - A header file that defines a macro named SIZE as an abbreviation for the token 1024 with (source file [`0-main.c`](0x0D-preprocessor/0-main.c) and executable file [a](0x0D-preprocessor/a)
