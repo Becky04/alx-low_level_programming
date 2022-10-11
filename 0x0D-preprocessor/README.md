@@ -10,7 +10,7 @@
 * Global variables are not allowed
 * No more than 5 functions per file
 * The only C standard library functions allowed are `malloc`, `free` and `exit`. Any use of functions like `printf`, `puts`, `calloc`, `realloc` etc… is forbidden
-* All your header files should be include guarded
+* All header files are include guarded
 --- 
 
 ### [Task 0](0-object_like_macro.h) - A header file that defines a macro named SIZE as an abbreviation for the token 1024 with source file [0-main.c](0-main.c) and executable file [a](a)
