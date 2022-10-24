@@ -9,7 +9,7 @@
  *
  * Return: NULL if the function fails
  */
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int id, int n)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *new, *copy = *head;
 	unsigned int node;
@@ -23,7 +23,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int id, int n)
 	if (idx = 0)
 	{
 		new->next = copy;
-		*hed =new;
+		*head =new;
 		return (new);
 	}
 	for (node = 0; node < (idx - 1); node++)
