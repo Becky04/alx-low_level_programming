@@ -6,7 +6,7 @@
  * @b: char string
  * Return: converted decimal number
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int uint, place;
 	int n;
