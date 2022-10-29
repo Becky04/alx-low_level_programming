@@ -1,11 +1,9 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * binary_to_unit - convert a binary number to an unsigned int
- * @b: char string
- * Return: converted decimal number
- */
+  * binary_to_uint - converts a binary number to an unsigned int
+  * @b: binary number
+  * Return: the converted number or 0 if it fails
+  */
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int uint, place;
@@ -13,6 +11,7 @@ unsigned int binary_to_uint(const char *b)
 
 	if (!b)
 		return (0);
+
 	for (n = 0; b[n]; n++)
 		;
 	n--;
@@ -31,5 +30,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 		return (0);
 	}
-	return (0);
+	return (uint);
 }
